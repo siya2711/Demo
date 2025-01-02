@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the World of Nature</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .hero {
+            background: url('https://th.bing.com/th/id/R.7aaaa721ac5a0e2e55ca90d5c8c6941f?rik=gnt6RT%2bgmvEvIQ&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2016%2f03%2f29%2fbeautiful-nature-desktop-wallpaper_042321723_304.jpg&ehk=JYC9vE5FO5uED5i90FiQT5OqRYQqJzNOZXr5B7avfGE%3d&risl=&pid=ImgRaw&r=0') no-repeat center center/cover;
+            height: 100vh;
+            color: white;
+            text-align: center;
+text-family:arial black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+
+        }
+
+        .hero p {
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+
+        }
+
+        .hero a {
+            background:black;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 1rem;
+            border-radius: 5px;
+        }
+
+        .hero a:hover {
+            background: black;
+        }
+
+        .topics {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 20px;
+            background: #f4f4f4;
+        }
+
+        .topic {
+            background: #fff;
+            margin: 15px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+  .topic h3 {
+            margin: 15px 0;
+        }
+
+        .topic p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .topic a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #28a745;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .topic a:hover {
+            text-decoration: underline;
+        }
+
+          </style>
+</head>
+<body>
+
+ <header class="hero">
+<h1>Explore the Beauty of Nature</h1>
+        <p>Discover the wonders of forests, mountains, oceans, and wildlife.</p>
+<a href="#topics">Learn More</a>
+
+                       </header>
+    <section id="topics" class="topics">
+        <div class="topic">
+            <h3>Forests</h3>
+            <p>Experience the tranquility and diversity of lush green forests.</p>
+            <a href="https://www.bing.com/ck/a?!&&p=ee8701921ba6e4852f86dc098865ddde00ff7aa9d891b6d1000f6fa2f3d9b3bcJmltdHM9MTczNTc3NjAwMA&ptn=3&ver=2&hsh=4&fclid=1c9f7591-260a-6277-2836-611c27206303&psq=forest&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRm9yZXN0&ntb=1">Discover More</a>
+        </div>
+        <div class="topic">
+            <h3>Mountains</h3>
+            <p>Feel the thrill of scaling peaks and enjoy breathtaking views.</p>
+            <a href="https://www.bing.com/ck/a?!&&p=c16ba6b3651e1a4eb837ce77e7535c68c67bca93c2320fd6cfb93ac3e73cde34JmltdHM9MTczNTc3NjAwMA&ptn=3&ver=2&hsh=4&fclid=1c9f7591-260a-6277-2836-611c27206303&psq=mountain&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTW91bnRhaW4&ntb=1">Discover More</a>
+        </div>
+        <div class="topic">
+            <h3>Oceans</h3>
+            <p>Dive into the mysterious and vibrant life beneath the waves.</p>
+           <a href="https://www.bing.com/ck/a?!&&p=d754a1e69ed4299d34604a08e504507bf46ded1fc4152248ad50df0cc23d6dbeJmltdHM9MTczNTc3NjAwMA&ptn=3&ver=2&hsh=4&fclid=1c9f7591-260a-6277-2836-611c27206303&psq=ocean&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvT2NlYW4&ntb=1">Discover More</a>
+        </div>
+        <div class="topic">
+            <h3>Wildlife</h3>
+            <p>Witness the beauty and behavior of animals in their natural habitats.</p>
+            <a href="https://www.bing.com/ck/a?!&&p=c5083991acbd1c41c699b77b0c7d58ecd05d9506fdeb127f2d18320f63098857JmltdHM9MTczNTc3NjAwMA&ptn=3&ver=2&hsh=4&fclid=1c9f7591-260a-6277-2836-611c27206303&psq=wildlife&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvV2lsZGxpZmU&ntb=1">Discover More</a>
+        </div>
+    </section>
+<br><br><br><br><br><br><br><br>
+</body>
+</html>
